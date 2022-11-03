@@ -1,0 +1,50 @@
+.headerStyle {
+    background-color: darkslateblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headerStyle img {
+    margin-left: 80px;
+}
+
+.menuStyle {
+    margin-right: 80px;
+}
+
+.headerStyle a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.headerStyle a:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#bar-style {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .menuStyle a {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
