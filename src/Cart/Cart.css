@@ -1,8 +1,9 @@
-.cartContainer {
-    width: auto;
-    background-color: darkkhaki;
-    text-align: center;
-    color: white;
-    font-weight: 600px;
-    height: 100vh;
+.cartNewStyle {
+    position: sticky;
+    top: 0px;
+}
+
+.itemsInfo {
+    text-align: start;
+    padding-left: 30px;
 }
